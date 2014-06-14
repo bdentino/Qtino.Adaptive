@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/TinoUI">
+        <file>1.0/RaisedFooter.qml</file>
+        <file>1.0/RaisedHeader.qml</file>
+        <file>1.0/ShadowedRectangle.qml</file>
+        <file>1.0/SimpleButton.qml</file>
+        <file>1.0/IconButton.qml</file>
+        <file>qmldir</file>
+    </qresource>
+</RCC>
