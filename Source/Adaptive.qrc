@@ -6,5 +6,6 @@
         <file>1.0/SimpleButton.qml</file>
         <file>1.0/IconButton.qml</file>
         <file>qmldir</file>
+        <file>1.0/DroppedRectangle.qml</file>
     </qresource>
 </RCC>

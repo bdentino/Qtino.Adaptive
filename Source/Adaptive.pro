@@ -7,7 +7,7 @@ TARGET = $$qtLibraryTarget($$TARGET)
 uri = Qtino.Adaptive
 
 RESOURCES += \
-    TinoUI.qrc
+    Adaptive.qrc
 
 OTHER_FILES += \
     1.0/*.qml \
@@ -17,11 +17,14 @@ installPath = $$[QT_INSTALL_QML]/$$replace(uri, \\., /)
 
 cleanTarget.files +=
 cleanTarget.path += $$installPath
-macx: cleanTarget.extra = rm -rf $$installPath
-ios: cleanTarget.extra = rm -rf $$installPath
+macx|ios|unix: cleanTarget.extra = rm -rf $$installPath
+
+qmldir.files = qmldir
+qmldir.path = $$installPath
+target.path = $$installPath
 
 resources.files += \
-    TinoUI.qrc \
+    Adaptive.qrc \
     qmldir
 resources.path = $$installPath
 
@@ -29,4 +32,4 @@ qml_1_0.files += \
     1.0/*.qml
 qml_1_0.path = $$installPath/1.0
 
-INSTALLS += cleanTarget resources qml_1_0
+INSTALLS += cleanTarget resources qml_1_0 qmldir

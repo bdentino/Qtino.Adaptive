@@ -5,3 +5,4 @@ RaisedFooter 		1.0 1.0/RaisedFooter.qml
 RaisedHeader		1.0 1.0/RaisedHeader.qml
 SimpleButton		1.0 1.0/SimpleButton.qml
 IconButton              1.0 1.0/IconButton.qml
+DroppedRectangle        1.0 1.0/DroppedRectangle.qml
