@@ -13,7 +13,7 @@ Button {
         label: Text {
             anchors.centerIn: parent
             text: control.text
-            font.family: "GE Inspira"
+            font.family: "Avenir Next"
             font.pointSize: 20
             color: control.pressed ? 'white' : 'black'
             horizontalAlignment: Text.AlignHCenter

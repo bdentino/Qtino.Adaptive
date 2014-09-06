@@ -28,7 +28,7 @@ ShadowedRectangle {
         anchors.left: parent.left
         anchors.leftMargin: 20
         font.bold: true
-        font.family: "GE Inspira"
+        font.family: "Avenir Next"
         font.pixelSize: header.height * 0.4
     }
 }

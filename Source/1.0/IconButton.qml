@@ -30,7 +30,7 @@ MouseArea {
             anchors.bottom: parent.bottom
             anchors.horizontalCenter: parent.horizontalCenter
             height: Text.paintedHeight
-            font.family: "GE Inspira"
+            font.family: "Avenir Next"
             font.pixelSize: parent.height * 0.25
             clip: true
         }
